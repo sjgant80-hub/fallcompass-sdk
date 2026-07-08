@@ -1,0 +1,40 @@
+{
+  "name": "@ai-native-solutions/fallcompass-sdk",
+  "version": "1.0.0",
+  "description": "Sovereign LLM cascade router. 8 providers. First success wins. BYOK.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "llm",
+    "cascade",
+    "router",
+    "byok",
+    "anthropic",
+    "openai",
+    "ollama",
+    "webllm",
+    "gemini",
+    "mistral",
+    "openrouter",
+    "failover",
+    "sovereign"
+  ],
+  "author": "AI Native Solutions <hello@ai-nativesolutions.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallcompass-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallcompass-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
